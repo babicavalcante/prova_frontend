@@ -11,14 +11,17 @@ export default function Pagina(props) {
                             <NavDropdown.Item href="/designers">
                                Designers
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="/colecoes">
-                               Coleções
+                            <NavDropdown.Item href="/marcas">
+                               marcas
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/pecas">
                                Peças de Roupa
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/eventos">
                                Eventos de Moda
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="/modelos">
+                               Modelos
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/clientes">
                                Clientes

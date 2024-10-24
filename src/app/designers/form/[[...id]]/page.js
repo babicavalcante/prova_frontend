@@ -87,9 +87,7 @@ export default function Page() {
                                     isInvalid={errors.especialidade}
                                     style={{ borderColor: errors.especialidade ? '#dc3545' : '#ced4da' }}
                                 />
-                                <Form.Control.Feedback type="invalid">
-                                    {errors.especialidade}
-                                </Form.Control.Feedback>
+                                 <div className="text-danger">{errors.especialidade}</div>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="email">
                                 <Form.Label>E-mail</Form.Label>
